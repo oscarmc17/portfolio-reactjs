@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-reactjs/static/css/main.e57db2c5.chunk.css",
+    "main.js": "/portfolio-reactjs/static/js/main.352ca05d.chunk.js",
+    "main.js.map": "/portfolio-reactjs/static/js/main.352ca05d.chunk.js.map",
+    "runtime-main.js": "/portfolio-reactjs/static/js/runtime-main.d19c7d7e.js",
+    "runtime-main.js.map": "/portfolio-reactjs/static/js/runtime-main.d19c7d7e.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolio-reactjs/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f9b9b49c.chunk.js": "/portfolio-reactjs/static/js/2.f9b9b49c.chunk.js",
+    "static/js/2.f9b9b49c.chunk.js.map": "/portfolio-reactjs/static/js/2.f9b9b49c.chunk.js.map",
+    "static/js/3.b16c8a61.chunk.js": "/portfolio-reactjs/static/js/3.b16c8a61.chunk.js",
+    "static/js/3.b16c8a61.chunk.js.map": "/portfolio-reactjs/static/js/3.b16c8a61.chunk.js.map",
+    "index.html": "/portfolio-reactjs/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolio-reactjs/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.e57db2c5.chunk.css.map": "/portfolio-reactjs/static/css/main.e57db2c5.chunk.css.map",
+    "static/js/2.f9b9b49c.chunk.js.LICENSE.txt": "/portfolio-reactjs/static/js/2.f9b9b49c.chunk.js.LICENSE.txt",
+    "static/media/WeatherApp.ad34c88d.png": "/portfolio-reactjs/static/media/WeatherApp.ad34c88d.png",
+    "static/media/bighex.5949b860.jpg": "/portfolio-reactjs/static/media/bighex.5949b860.jpg",
+    "static/media/coffeeshop.053c43e6.png": "/portfolio-reactjs/static/media/coffeeshop.053c43e6.png",
+    "static/media/hex1.3ad7fbb5.jpeg": "/portfolio-reactjs/static/media/hex1.3ad7fbb5.jpeg",
+    "static/media/hex2.77e51933.jpg": "/portfolio-reactjs/static/media/hex2.77e51933.jpg",
+    "static/media/hex3.b55a0d01.JPG": "/portfolio-reactjs/static/media/hex3.b55a0d01.JPG",
+    "static/media/restaurant.2da9681f.png": "/portfolio-reactjs/static/media/restaurant.2da9681f.png",
+    "static/media/troysgym.70ae150e.png": "/portfolio-reactjs/static/media/troysgym.70ae150e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d19c7d7e.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f9b9b49c.chunk.js",
+    "static/css/main.e57db2c5.chunk.css",
+    "static/js/main.352ca05d.chunk.js"
+  ]
+}
