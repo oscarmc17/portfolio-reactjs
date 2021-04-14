@@ -1,0 +1,346 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Prata', serif;
+}
+
+/* Main Section */
+.header-wrapper {
+  height: 100vh;
+  background-color: #22262a;
+  color: white;
+  padding: 10px;
+}
+
+.main-text {
+  font-size: 88px;
+}
+.main-paragraph {
+  font-size: 50px;
+  line-height: 65px;
+  margin: 10px;
+  font-family: "lato", sans-serif;
+  padding: 0px 50px;
+}
+
+.main-btn {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #4b6cc1;
+  padding: 15px 20px;
+  font-size: 22px;
+  font-family: "lato", sans-serif;
+}
+.main-btn:hover{
+  text-decoration: none;
+  background-color: #4b6cc1;
+  border: 2px solid #fff;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* 2nd Section */
+.container-row{
+  background-color: #e0e0e0;
+  padding: 25px 0px;
+}
+
+.coffeeimage{
+  width: 100%;
+}
+
+.section-text {
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.projects-btn {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #4b6cc1;
+  background-color: #22262a;
+  padding: 15px;
+  font-size: 18px;
+  font-family: "lato", sans-serif;
+  margin: 15px;
+}
+.projects-btn:hover{
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+/* Hexagons */
+.divisor-wrapper {
+  background-color: #e0e0e0;
+}
+
+.divisor {
+  height: 3px;
+  width: 50%;
+  background-color: #4b6cc1;
+}
+
+.hexagon-wrapper {
+  background-color: #e0e0e0;
+}
+
+.hexagon-img{
+  width: 150px;
+  height: 150px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.hex-text {
+  padding: 0px 15px;
+}
+
+.big-hexagon {
+  width: 400px;
+  height: 400px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+/* Big Hex Section */
+.big-hex-wrapper{
+  background-color: #e0e0e0;
+}
+
+.description{
+  padding-right: 10px;
+}
+
+/* Contact/Footer Section */
+.contact-wrapper {
+  background-color: #22262a;
+}
+.footer-text {
+  /* color: white; */
+}
+.contact-btn {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #4b6cc1;
+  padding: 15px 20px;
+  font-size: 22px;
+  font-family: "lato", sans-serif;
+}
+.contact-btn:hover{
+  text-decoration: none;
+  background-color: #4b6cc1;
+  border: 2px solid #fff;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.social-wrapper{
+  margin: 30px 0px;
+}
+.social-list{ 
+  list-style: none;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgb(0 0 0 / 50%);
+}
+.social:hover {
+    transform: translate(0, -10px);
+}
+
+.one a:hover {
+    background: #e4405f;
+}
+
+.two a:hover {
+    background: #55acee;
+}
+
+.three a:hover {
+    background: #211f1f;
+}
+.fa {
+  font-size: 30px;
+  line-height: 60px;
+  transition: .6s;
+  color: #000;
+}
+.fa:hover {
+    color: #fff;
+}
+
+
+/* 768 iPad BreakPoint */
+@media screen and (max-width: 768px) {
+  .main-text {
+    font-size: 65px;
+  }
+  .main-paragraph{
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 15px;
+  }
+  .main-btn {
+    font-size: 18px;
+  }
+  .project-title{
+    margin: 15px 0px;
+  }
+  .project-sec{
+    padding: 20px 0px;
+  }
+  .col-hex{
+    margin: 10px 0px;
+  }
+  .hex-text {
+    padding: 0px 30px;
+  }
+  .last-hex-section{
+    padding: 15px 0px;
+  }
+  .hex-title{
+    text-align: center;
+  }
+  .description{
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .bullet-heading{
+    text-align: center;
+  }
+  .bullets{
+    text-align: center;
+  }
+  .contact-btn {
+  font-size: 20px;
+  }
+  .footer-text {
+  padding: 0px 25px;
+  line-height: 40px;
+  }
+}
+
+/* 420 for iPhone Breakpoint */
+@media screen and (max-width: 420px) {
+  .main-text{
+    font-size: 50px;
+  }
+   .main-paragraph{
+    font-size: 22px;
+    line-height: 26px;
+    padding: 0px;
+  }
+  .main-btn{
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .project-text{
+    font-size: 24px;
+  }
+  .section-text{
+    font-size: 16px;
+  }
+  .projects-btn{
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  .project-text{
+    font-size: 24px;
+  }
+  .proj-name{
+    font-size: 24px;
+  }
+  .hexagon-img{
+    height: 140px;
+    width: 140px;
+  }
+  .hex-title{
+    font-size: 24px;
+  }
+  .hex-text{
+    font-size: 14px;
+  }
+  .big-hexagon{
+    width: 235px;
+    height: 235px;
+  }
+  .description{
+    font-size: 15px;
+  }
+  .bullet-heading{
+    font-size: 20px;
+  }
+  .bullets{
+    font-size: 15px;
+  }
+  .footer-text{
+    font-size: 20px;
+    padding: 0px;
+  }
+  .contact-btn{
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+  .social{
+    width: 50px;
+    height: 50px;
+  }
+  .fa {
+      line-height: 50px;
+  }
+  .copyright{
+    font-size: 14px;
+  }
+}
