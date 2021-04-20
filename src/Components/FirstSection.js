@@ -11,9 +11,9 @@ const FirstSection = () => {
       {/* Gray Ghost Coffee Section */}
       <Container
         fluid
-        className="container-row d-flex justify-content-center align-items-center"
+        className="container-row d-flex justify-content-center align-items-center" id="project"
       >
-        <Row className="p-4">
+        <Row >
           <Col
             lg={8}
             md={12}
@@ -36,7 +36,7 @@ const FirstSection = () => {
             </p>
             <a
               className="projects-btn"
-              // href="https://oscarmc17.github.io/CoffeeShopWebsite/"
+              href="https://oscarmc17.github.io/CoffeeShopWebsite/"
               target="_blank"
             >
               View Website
@@ -50,7 +50,7 @@ const FirstSection = () => {
         fluid
         className="container-row d-flex justify-content-center align-items-center"
       >
-        <Row className="p-4">
+        <Row >
           <Col
             lg={4}
             md={12}
@@ -63,7 +63,7 @@ const FirstSection = () => {
             </p>
             <a
               className="projects-btn"
-              // href="https://oscarmc17.github.io/CoffeeShopWebsite/"
+              href="https://oscarmc17.github.io/CoffeeShopWebsite/"
               target="_blank"
             >
               View Website
@@ -87,7 +87,7 @@ const FirstSection = () => {
         fluid
         className="container-row d-flex justify-content-center align-items-center"
       >
-        <Row className="p-2">
+        <Row>
           <Col
             lg={6}
             className="project-sec text-center d-flex justify-content-center align-items-center flex-column"
@@ -96,7 +96,7 @@ const FirstSection = () => {
             <img src={restaurant} className="coffeeimage"></img>
             <a
               className="projects-btn"
-              // href="https://oscarmc17.github.io/CoffeeShopWebsite/"
+              href="https://oscarmc17.github.io/CoffeeShopWebsite/"
               target="_blank"
             >
               View Website
@@ -111,7 +111,7 @@ const FirstSection = () => {
             <img src={weatherapp} className="coffeeimage"></img>
             <a
               className="projects-btn"
-              // href="https://oscarmc17.github.io/CoffeeShopWebsite/"
+              href="https://oscarmc17.github.io/CoffeeShopWebsite/"
               target="_blank"
             >
               View Website

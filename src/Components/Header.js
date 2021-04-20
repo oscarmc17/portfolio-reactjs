@@ -8,7 +8,7 @@ const Header = () => {
         I am a front-end web developer and designer currently based in
         Chicago, Illinois.
       </h3>
-      <a className="main-btn" href="#">
+      <a className="main-btn" href="#project">
         View Projects
       </a>
     </div>
