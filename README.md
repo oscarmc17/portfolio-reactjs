@@ -1,3 +1,5 @@
+#Portfolio Webiste coded in React JS. Recreated my original site to get more practice using react while encountering and solving new through problems.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
