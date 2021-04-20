@@ -64,7 +64,7 @@ const FirstSection = () => {
             </p>
             <a
               className="projects-btn"
-              href="https://oscarmc17.github.io/CoffeeShopWebsite/"
+              href="https://oscarmc17.github.io/gym-website/"
               target="_blank"
             >
               View Website
@@ -94,10 +94,10 @@ const FirstSection = () => {
             className="project-sec text-center d-flex justify-content-center align-items-center flex-column"
           >
             <h3 className="proj-name">Le Petit Blond</h3>
-            <img src={restaurant} className="coffeeimage"></img>
+            <img src={restaurant} className="coffeeimage image2"></img>
             <a
               className="projects-btn"
-              href="https://oscarmc17.github.io/CoffeeShopWebsite/"
+              href="https://oscarmc17.github.io/Restaurant-Website/"
               target="_blank"
             >
               View Website
@@ -109,10 +109,10 @@ const FirstSection = () => {
             className="project-sec d-flex justify-content-center align-items-center flex-column"
           >
             <h3 className="proj-name">Weather App</h3>
-            <img src={weatherapp} className="coffeeimage"></img>
+            <img src={weatherapp} className="coffeeimage image2"></img>
             <a
               className="projects-btn"
-              href="https://oscarmc17.github.io/CoffeeShopWebsite/"
+              href="https://oscarmc17.github.io/weather-app/"
               target="_blank"
             >
               View Website
