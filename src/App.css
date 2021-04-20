@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 {
  font-family: 'Prata', serif;
 }
 
+.row {
+  margin: 0px;
+}
+
 /* Main Section */
 .header-wrapper {
   height: 100vh;
@@ -158,9 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-wrapper {
   background-color: #22262a;
 }
-.footer-text {
-  /* color: white; */
-}
+
 .contact-btn {
   text-decoration: none;
   color: white;
@@ -264,11 +266,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   .contact-btn {
-  font-size: 20px;
+    font-size: 20px;
   }
   .footer-text {
-  padding: 0px 25px;
-  line-height: 40px;
+    padding: 0px 25px;
+    line-height: 40px;
+  }
+  .row {
+    margin: 0px;
   }
 }
 
@@ -342,5 +347,8 @@ h1, h2, h3, h4, h5, h6 {
   }
   .copyright{
     font-size: 14px;
+  }
+  .row {
+    margin: 0px;
   }
 }

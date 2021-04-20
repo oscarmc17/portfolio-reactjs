@@ -11,9 +11,10 @@ const FirstSection = () => {
       {/* Gray Ghost Coffee Section */}
       <Container
         fluid
-        className="container-row d-flex justify-content-center align-items-center" id="project"
+        className="container-row d-flex justify-content-center align-items-center"
+        id="project"
       >
-        <Row >
+        <Row>
           <Col
             lg={8}
             md={12}
@@ -50,7 +51,7 @@ const FirstSection = () => {
         fluid
         className="container-row d-flex justify-content-center align-items-center"
       >
-        <Row >
+        <Row>
           <Col
             lg={4}
             md={12}
